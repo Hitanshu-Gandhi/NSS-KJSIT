@@ -78,7 +78,7 @@ const Home = () => {
             <img src={im231} className="md:h-[80vh]" />
           </div>
           <div>
-            <img src={im232} className="md:h-[80vh] h-[47vh]" />
+            <img src={im232} className="md:h-[80vh]" />
           </div>
           <div>
             <img src={im233} className="md:h-[80vh]" />
