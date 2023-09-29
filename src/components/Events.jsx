@@ -20,7 +20,7 @@ const Events = () => {
       <Header2 />
 
       <div className="grid grid-cols-1 md:grid-cols-3 md:gap-20 gap-5 p-6 md:p-10">
-        <div className="md:block grid grid-cols-3 font-[sans-serif] rounded-xl md:rounded-3xl p-1 md:p-2 w-max h-max bg-blue-900">
+        <div className="md:block grid grid-cols-3 font-[sans-serif] rounded-xl md:rounded-3xl md:p-2 w-max h-max bg-blue-900">
           <h1
             className={`grid justify-center items-center p-2 md:p-6 m-1 md:m-4 md:text-3xl text-sm md:mt-5 cursor-pointer ${
               toggle == 1 ? "md:rounded-3xl rounded-xl bg-[#0000005d] text-white " : null
