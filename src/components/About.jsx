@@ -24,16 +24,16 @@ const About = () => {
           src={blob3}
           className=" absolute -z-10 top-[75rem] md:top-[65rem] w-[50rem] right-32 md:right-3/4"
         />
-        <h1 className="uppercase text-center font-semibold p-2 m-2 text-3xl md:text-4xl">
+        <h1 className="uppercase text-center font-[sans-serif] font-semibold p-2 m-2 text-3xl md:text-4xl">
           About Us
         </h1>
         <div className="md:p-8">
           <div className="md:p-8">
             <h1 className=" text-2xl md:text-4xl mb-3 text-green-700">
-              <span className="font-black text-3xl md:text-5xl">|</span>{" "}
+              <span className="font-black font-[sans-serif] text-3xl md:text-5xl">|</span>{" "}
               Introduction
             </h1>
-            <p className="md:ml-10 md:text-lg md:mb-10 mb-5">
+            <p className="md:ml-10 md:text-lg font-[Poppins] md:mb-10 mb-5">
               The National Service Scheme (NSS) at K.J. Somaiya Institute of
               Technology is a vibrant and enthusiastic community of young
               individuals dedicated to making a positive impact on society. Our
@@ -45,11 +45,11 @@ const About = () => {
           </div>
 
           <div className="md:p-8">
-            <h1 className="text-2xl md:text-4xl mb-3 text-blue-500">
+            <h1 className="text-2xl md:text-4xl font-[sans-serif] mb-3 text-blue-500">
               <span className="font-black text-3xl md:text-5xl">|</span> Our
               Mission
             </h1>
-            <p className="md:ml-10 md:text-lg md:mb-10 mb-5">
+            <p className="md:ml-10 md:text-lg font-[Poppins] md:mb-10 mb-5">
               At NSS, our mission is to foster a sense of social consciousness
               among students and inspire them to actively engage in community
               development. Through various projects and initiatives, we strive
@@ -59,11 +59,11 @@ const About = () => {
           </div>
 
           <div className="md:p-8">
-            <h1 className="text-2xl md:text-4xl mb-3 text-red-600">
+            <h1 className="text-2xl md:text-4xl font-[sans-serif] mb-3 text-red-600">
               <span className="font-black text-3xl md:text-5xl">|</span>{" "}
               Objectives
             </h1>
-            <p className="md:ml-10 md:text-lg md:mb-10 mb-5">
+            <p className="md:ml-10 md:text-lg font-[Poppins] md:mb-10 mb-5">
               Our NSS unit is committed to achieving the following objectives:
               Community Development: We actively involve students in projects
               that address social issues and contribute to the welfare of the
@@ -87,11 +87,11 @@ const About = () => {
           </div>
 
           <div className="md:p-8">
-            <h1 className="text-2xl md:text-4xl mb-3 text-purple-600">
+            <h1 className="text-2xl md:text-4xl font-[sans-serif] mb-3 text-purple-600">
               <span className="font-black text-3xl md:text-5xl">|</span>{" "}
               Volunteer Opportunities
             </h1>
-            <p className="md:ml-10 md:text-lg md:mb-10 mb-5">
+            <p className="md:ml-10 md:text-lg font-[Poppins] md:mb-10 mb-5">
               As an NSS volunteer at K.J. Somaiya Institute of Technology, you
               will have the chance to participate in a wide range of
               community-driven projects. From teaching underprivileged children
@@ -102,11 +102,11 @@ const About = () => {
           </div>
 
           <div className="md:p-8">
-            <h1 className="text-2xl md:text-4xl mb-3 text-blue-500">
+            <h1 className="text-2xl md:text-4xl font-[sans-serif] mb-3 text-blue-500">
               <span className="font-black text-3xl md:text-5xl">|</span> Impact
               and Achievements
             </h1>
-            <p className="md:ml-10 md:text-lg md:mb-10 mb-5">
+            <p className="md:ml-10 md:text-lg font-[Poppins] md:mb-10 mb-5">
               Over the years, our NSS unit has made significant strides in
               various social endeavors. Through our collective efforts, we have
               positively impacted countless lives and created lasting changes in
@@ -117,11 +117,11 @@ const About = () => {
           </div>
 
           <div className="md:p-8">
-            <h1 className="text-2xl md:text-4xl mb-3 text-red-600">
+            <h1 className="text-2xl md:text-4xl font-[sans-serif] mb-3 text-red-600">
               <span className="font-black text-3xl md:text-5xl">|</span> Be the
               Change
             </h1>
-            <p className="md:ml-10 md:text-lg md:mb-10 mb-5">
+            <p className="md:ml-10 md:text-lg font-[Poppins] md:mb-10 mb-5">
               Together, let's embark on this journey of service, compassion, and
               transformation. Join NSS at K.J. Somaiya Institute of Technology
               and be the change you wish to see in the world.

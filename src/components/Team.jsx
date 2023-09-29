@@ -28,10 +28,10 @@ const Team = () => {
       <Header />
       <Header2 />
       <div className="p-8 rounded-lg">
-        <h1 className="p-2 text-center uppercase text-3xl md:text-4xl font-bold m-2">
+        <h1 className="p-2 text-center uppercase text-3xl font-[sans-serif] md:text-4xl font-bold m-2">
           Our Team (23-24)
         </h1>
-        <div className="p-2">
+        <div className="p-2 font-[Poppins]">
           {/* Program Officer */}
           <div className="card-1">
             <h1 className=" text-3xl md:text-4xl mb-6 text-green-600">
@@ -155,7 +155,7 @@ const Team = () => {
                         fontWeight={500}
                         component="div"
                       >
-                        Dhairya (CEO)
+                        Dhairya (Secretary)
                       </Typography>
                     </CardContent>
                   </Card>
@@ -177,7 +177,7 @@ const Team = () => {
                         fontWeight={500}
                         component="div"
                       >
-                        Shivam (Secretary)
+                        Shivam (CEO)
                       </Typography>
                     </CardContent>
                   </Card>

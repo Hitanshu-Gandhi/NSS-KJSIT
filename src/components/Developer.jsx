@@ -10,6 +10,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import dev1 from "../assets/dev1.jpg";
+import dev2 from "../assets/dev2.jpg";
 import dev3 from "../assets/dev3.jpg";
 import Header from "./Header";
 import Header2 from "./Header2";
@@ -21,10 +22,10 @@ const Developer = () => {
     <div className="developer-page">
       <Header />
       <Header2 />
-      <h1 className="text-center md:mt-8 text-4xl underline md:no-underline md:text-5xl p-2">
+      <h1 className="text-center font-[sans-serif] md:mt-8 text-4xl underline md:no-underline md:text-5xl p-2">
         Meet the developers
       </h1>
-      <div className=" p-4 md:p-8 grid grid-cols-1 md:grid-cols-3 gap-4 justify-center items-center">
+      <div className=" p-4 md:p-8 grid grid-cols-1 md:grid-cols-3 gap-4 font-[Poppins] justify-center items-center">
         {/* dev1 */}
         <div className="md:p-4 rounded-2xl md:w-max">
           <Card
@@ -33,7 +34,7 @@ const Developer = () => {
           >
             <Box sx={{ display: "flex", flexDirection: "column" }}>
               <CardContent sx={{ flex: "1 0 auto" }}>
-                <Typography component="div" variant="h5">
+                <Typography component="div" fontFamily={"Poppins"} variant="h5">
                   Hitanshu Gandhi
                 </Typography>
                 <Typography
@@ -97,7 +98,7 @@ const Developer = () => {
           >
             <Box sx={{ display: "flex", flexDirection: "column" }}>
               <CardContent sx={{ flex: "1 0 auto" }}>
-                <Typography component="div" variant="h5">
+                <Typography component="div" fontFamily={"Poppins"} variant="h5">
                   Sakshi Gangurde
                 </Typography>
                 <Typography
@@ -147,7 +148,7 @@ const Developer = () => {
             <CardMedia
               component="img"
               sx={{ width: 185 }}
-              image={dev1}
+              image={dev2}
               className="rounded-2xl h-[15rem] hover:bg-[#ff565634] p-2 shadow-inner"
             />
           </Card>
@@ -161,7 +162,7 @@ const Developer = () => {
           >
             <Box sx={{ display: "flex", flexDirection: "column" }}>
               <CardContent sx={{ flex: "1 0 auto" }}>
-                <Typography component="div" variant="h5">
+                <Typography component="div" fontFamily={"Poppins"} variant="h5">
                   Srushti kanade
                 </Typography>
                 <Typography

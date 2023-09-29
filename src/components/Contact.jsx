@@ -28,13 +28,15 @@ const Contact = () => {
   // };
 
   return (
-    <div className="contactus-page">
+    <div>
       <Header />
       <Header2 />
       <div className="p-4">
-        <h1 className="text-center mb-8 text-4xl">Contact Us</h1>
+        <h1 className="text-center mb-8 text-4xl font-[sans-serif]">
+          Contact Us
+        </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:p-8 justify-center items-center text-center align-middle">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:p-8 justify-center items-center font-[Poppins] text-center align-middle">
           <div className=" grid justify-center align-middle">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d998.9146558580854!2d72.87091238487872!3d19.046161083497164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c973ccfd0a1d%3A0xbf92c27823e57371!2sNSS%20KJSIEIT!5e0!3m2!1sen!2sin!4v1690121955296!5m2!1sen!2sin"

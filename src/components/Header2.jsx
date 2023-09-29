@@ -9,9 +9,9 @@ const Header2 = () => {
   return (
     <div>
       <div className=" md:hidden w-full p-2 flex justify-between items-center top-0 z-10">
-        <div className="flex justify-center items-center text-3xl cursor-pointer">
+        <div className="flex justify-center items-center text-4xl cursor-pointer">
           <img src={logo} height={70} width={70} />
-          <h1 className="m-2 uppercase font-medium">NSS KJSIT</h1>
+          <h1 className="m-2 uppercase font-[sans-serif] font-semibold">NSS KJSIT</h1>
         </div>
 
         <nav className="right-0">
@@ -25,7 +25,7 @@ const Header2 = () => {
         </nav>
       </div>
 
-      <div className={`grid grid-cols-1 gap-4 text-center ${isOpen ? "block" : "hidden"}`}>
+      <div className={`grid grid-cols-1 p-4 gap-4 font-[Poppins]  text-center ${isOpen ? "block" : "hidden"}`}>
         <Link to={"/"} className=" text-xl font-medium">
           Home
         </Link>

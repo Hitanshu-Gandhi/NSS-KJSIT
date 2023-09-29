@@ -6,11 +6,11 @@ const Header = () => {
   return (
     <div className=" hidden md:block">
       <nav className="w-full p-3 flex justify-between items-center top-0 z-10">
-        <div className="flex justify-center items-center text-3xl ml-4 cursor-pointer">
+        <div className="flex justify-center items-center text-4xl ml-4 cursor-pointer">
           <img src={logo} height={80} width={80} />
-          <h1 className="m-2 uppercase font-medium">NSS KJSIT</h1>
+          <h1 className="m-2 uppercase font-semibold font-[sans-serif]">NSS KJSIT</h1>
         </div>
-        <main className="flex justify-end mr-4 w-[70%]">
+        <main className="flex justify-end font-[Poppins] mr-4 w-[70%]">
           <Link to={"/"} className="m-4 text-xl font-medium">
             Home
           </Link>
